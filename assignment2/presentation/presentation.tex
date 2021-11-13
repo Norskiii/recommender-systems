@@ -1,0 +1,43 @@
+\documentclass{beamer}
+\usepackage{amsmath}
+\usepackage[backend=biber, style=authoryear]{biblatex}
+\addbibresource{references.bib}
+\usetheme{Antibes}
+\title{Method of taking disagreement into account in group evaluation with variance}
+\author{Noora Pöysti \& Väinö-Waltteri Granat}
+
+\begin{document}
+\frame{\titlepage}
+
+\begin{frame}
+    \frametitle{Method}
+    The method we chose to use for evaluating disagreement in the review is one of the methods presented in (\cite{Amer-YahiaSihem2009Grsa}).
+    Method is based on the idea that high variance in ratings given to an item amongst a group indicates that the item in question is not 
+    relevant to the group. 
+   \end{frame}
+
+\begin{frame}
+    \frametitle{Disagreement function}
+    First we need to calculate disagreement variance for the item $i$ in the group $g$.
+    \begin{align*}
+        dis(g,i) = \frac{1}{|g|}\sum \limits _{u\in g} (r^{*}(u, i) - mean)^2
+    \end{align*}
+    where $r^*$ is the average aggregation function
+\end{frame}
+
+\begin{frame}
+    \frametitle{Consensus function}
+    The disagreement is then taken into accout with
+    a consensus function. Consensus balances the groups aggregation score with the disagreement score with weights $w_1$ and $w_2$.
+    \begin{align*}
+        con(g,i) = w_1 \times r^{*}(g,i) + w_2 \times (1-dis(g,i))
+    \end{align*}
+ where $w_1 + w_2 = 1$
+\end{frame}
+
+\begin{frame}
+   \frametitle{References} 
+   \printbibliography
+\end{frame}
+
+\end{document}
