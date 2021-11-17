@@ -22,17 +22,17 @@
     \begin{align*}
         dis(g,i) = \frac{1}{|g|}\sum \limits _{u\in g} (r^{*}(u, i) - mean)^2
     \end{align*}
-    where $r^*$ is the average aggregation function
+    where $r^*(u,i)$ is the rating given by user $u$ to item $i$ and $mean$ is the mean of ratings given by the group to item $i$.
 \end{frame}
 
 \begin{frame}
     \frametitle{Consensus function}
-    The disagreement is then taken into accout with
+    The disagreement is then taken into account with
     a consensus function. Consensus balances the groups aggregation score with the disagreement score with weights $w_1$ and $w_2$.
     \begin{align*}
         con(g,i) = w_1 \times r^{*}(g,i) + w_2 \times (1-dis(g,i))
     \end{align*}
- where $w_1 + w_2 = 1$
+ where $w_1 + w_2 = 1$ and $r^{*}$ is the average aggregation function.
 \end{frame}
 
 \begin{frame}
