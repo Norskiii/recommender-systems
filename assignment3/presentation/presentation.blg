@@ -1,0 +1,9 @@
+[1] Config.pm:312> INFO - This is Biber 2.15
+[2] Config.pm:315> INFO - Logfile is 'presentation.blg'
+[128] biber:330> INFO - === Thu Nov 18, 2021, 15:22:10
+[160] Biber.pm:415> INFO - Reading 'presentation.bcf'
+[273] Biber.pm:952> INFO - Found 0 citekeys in bib section 0
+[281] Utils.pm:395> WARN - The file 'presentation.bcf' does not contain any citations!
+[291] bbl.pm:651> INFO - Writing 'presentation.bbl' with encoding 'UTF-8'
+[291] bbl.pm:754> INFO - Output to presentation.bbl
+[291] Biber.pm:128> INFO - WARNINGS: 1
