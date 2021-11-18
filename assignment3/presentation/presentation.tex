@@ -1,5 +1,6 @@
 \documentclass{beamer}
 \usepackage{amsmath}
+\usepackage{subfig}
 \usepackage[backend=biber, style=authoryear]{biblatex}
 \addbibresource{references.bib}
 \usetheme{Antibes}
@@ -31,8 +32,14 @@
 \end{frame}
 
 \begin{frame}
-   \frametitle{References} 
-   \printbibliography
+    \frametitle{Comparison}
+    \begin{figure}%
+        \centering
+        \subfloat[\centering original]{{\includegraphics[width=0.45\textwidth]{original_alpha.PNG} }}%
+        \qquad
+        \subfloat[\centering with MSE]{{\includegraphics[width=0.45\textwidth]{improved_alpha.PNG} }}%
+        \caption{Comparison between original $\alpha_j$ and $\alpha_j$ calculated with MSE}%
+        \label{fig:example}%
+    \end{figure}
 \end{frame}
-
 \end{document}
