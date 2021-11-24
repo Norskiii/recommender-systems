@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.7.22)  18 NOV 2021 15:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.5.23)  24 NOV 2021 13:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -975,99 +975,84 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 10.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `normal'
 (Font)                  OT1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 10.
-LaTeX Font Info:    Overwriting symbol font `pureletters' in versionding 'utf8'.
+LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
+(Font)                  OT1/cmss/b/it --> OT1/mathkerncmss/m/sl on input line 10.
+LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
+(Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on input line 10.
+ (/usr/share/texmf-dist/tex/latex/translator/translator-basic-dictionary-English.dict
+Dictionary: translator-basic-dictionary, Language: English 
+) (/usr/share/texmf-dist/tex/latex/translator/translator-bibliography-dictionary-English.dict
+Dictionary: translator-bibliography-dictionary, Language: English 
+) (/usr/share/texmf-dist/tex/latex/translator/translator-environment-dictionary-English.dict
+Dictionary: translator-environment-dictionary, Language: English 
+) (/usr/share/texmf-dist/tex/latex/translator/translator-months-dictionary-English.dict
+Dictionary: translator-months-dictionary, Language: English 
+) (/usr/share/texmf-dist/tex/latex/translator/translator-numbers-dictionary-English.dict
+Dictionary: translator-numbers-dictionary, Language: English 
+) (/usr/share/texmf-dist/tex/latex/translator/translator-theorem-dictionary-English.dict
+Dictionary: translator-theorem-dictionary, Language: English 
+)
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: End \AtBeginDocument code.
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+ (/usr/share/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+File: english.lbx 2020/12/31 v3.16 biblatex localization (PK/MW)
+)
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
 Package biblatex Info: Document encoding is UTF8 ....
-
-(/usr/share/texmf-dist/tex/latex/l3kernel/expl3.sty
+ (/usr/share/texmf-dist/tex/latex/l3kernel/expl3.sty
 Package: expl3 2021-02-18 L3 programming layer (loader) 
 )
 Package biblatex Info: ... and expl3
 (biblatex)             2021-02-18 L3 programming layer (loader) 
 (biblatex)             is new enough (at least 2020/04/06),
 (biblatex)             setting 'casechanger=expl3'.
-
-(/usr/share/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty
-(/usr/share/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
-(/usr/share/texmf-dist/tex/latex/l3packages/xparse/xparse-2020-10-01.sty
-(/usr/share/texmf-dist/tex/latex/l3packages/xparse/xparse-generic.tex)))
+ (/usr/share/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty (/usr/share/texmf-dist/tex/latex/l3packages/xparse/xparse.sty (/usr/share/texmf-dist/tex/latex/l3packages/xparse/xparse-2020-10-01.sty (/usr/share/texmf-dist/tex/latex/l3packages/xparse/xparse-generic.tex)))
 Package: blx-case-expl3 2020/12/31 v3.16 expl3 case changing code for biblatex
 )
 \openout5 = `presentation.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'presentation.bbl' not found.
-
-No file presentation.bbl.
-Package biblatex Info: Reference section=0 on input line 9.
-Package biblatex Info: Reference segment=0 on input line 9.
-(./presentation.nav) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+Package biblatex Info: ... file 'presentation.bbl' found.
+ (/home/vaino/recommender-systems/assignment3/presentation/presentation.bbl)
+Package biblatex Info: Reference section=0 on input line 10.
+Package biblatex Info: Reference segment=0 on input line 10.
+ (/home/vaino/recommender-systems/assignment3/presentation/presentation.nav) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 ]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 17.
-
-
-(/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
+LaTeX Font Info:    Trying to load font information for U+msa on input line 18.
+ (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 17.
-
-
-(/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
+LaTeX Font Info:    Trying to load font information for U+msb on input line 18.
+ (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on inp
-ut line 17.
-
-(/usr/share/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
-File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/ma
-thkerncmss.
+LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on input line 18.
+ (/usr/share/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
+File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/mathkerncmss.
 ) [2
 
-]
-[3
+] [3
 
 ]
-! Undefined control sequence.
-\beamer@doifinframe ...igure}\centering \subfloat 
-                                                  [\centering label 1]{{\inc...
-l.43 \end{frame}
-                
-? 
-! Interruption.
-<to be read again> 
-                   [
-l.43 \end{frame}
-                
-? 
-<original_alpha.PNG, id=106, 380.17032pt x 244.66406pt>
+<original_alpha.PNG, id=105, 380.17032pt x 244.66406pt>
 File: original_alpha.PNG Graphic file (type png)
 <use original_alpha.PNG>
-Package pdftex.def Info: original_alpha.PNG  used on input line 43.
-(pdftex.def)             Requested size: 142.26378pt x 91.5584pt.
-! Undefined control sequence.
-\beamer@doifinframe ...ha.PNG} }}\qquad \subfloat 
-                                                  [\centering label 2]{{\inc...
-l.43 \end{frame}
-                
-? 
-<improved_alpha.PNG, id=108, 389.20406pt x 241.65282pt>
+Package pdftex.def Info: original_alpha.PNG  used on input line 44.
+(pdftex.def)             Requested size: 138.2795pt x 88.99364pt.
+<improved_alpha.PNG, id=107, 389.20406pt x 241.65282pt>
 File: improved_alpha.PNG Graphic file (type png)
 <use improved_alpha.PNG>
-Package pdftex.def Info: improved_alpha.PNG  used on input line 43.
-(pdftex.def)             Requested size: 142.26378pt x 88.33344pt.
+Package pdftex.def Info: improved_alpha.PNG  used on input line 44.
+(pdftex.def)             Requested size: 138.2795pt x 85.85924pt.
+ [4
 
-Overfull \vbox (12.43643pt too high) detected at line 43
- []
-
-[4
-
- <./original_alpha.PNG> <./improved_alpha.PNG>]
-
-LaTeX Warning: Empty bibliography on input line 48.
-
-[5
-
-]
+ </home/vaino/recommender-systems/assignment3/presentation/original_alpha.PNG> </home/vaino/recommender-systems/assignment3/presentation/improved_alpha.PNG>]
 \tf@nav=\write7
 \openout7 = `presentation.nav'.
 
@@ -1077,7 +1062,7 @@ LaTeX Warning: Empty bibliography on input line 48.
 \tf@snm=\write9
 \openout9 = `presentation.snm'.
 
- (./presentation.aux)
+ (/home/vaino/recommender-systems/assignment3/presentation/presentation.aux)
 Package rerunfilecheck Info: File `presentation.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 Package logreq Info: Writing requests to 'presentation.run.xml'.
@@ -1085,31 +1070,6 @@ Package logreq Info: Writing requests to 'presentation.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 27194 strings out of 478994
- 511213 string characters out of 5864751
- 1224828 words of memory out of 5000000
- 44156 multiletter control sequences out of 15000+600000
- 414284 words of font info for 66 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 131i,15n,132p,745b,759s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmss10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmss12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></us
-r/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texmf
--dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmsy6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.
-pfb>
-Output written on presentation.pdf (5 pages, 114015 bytes).
-PDF statistics:
- 202 PDF objects out of 1000 (max. 8388607)
- 171 compressed objects within 2 object streams
- 12 named destinations out of 1000 (max. 500000)
- 53 words of extra memory for PDF output out of 10000 (max. 10000000)
-
-ed:
  28593 strings out of 478994
  539056 string characters out of 5864751
  1245755 words of memory out of 5000000
@@ -1118,7 +1078,7 @@ ed:
  1141 hyphenation exceptions out of 8191
  131i,15n,132p,802b,759s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on /home/vaino/recommender-systems/assignment3/presentation/presentation.pdf (4 pages, 121348 bytes).
+Output written on /home/vaino/recommender-systems/assignment3/presentation/presentation.pdf (4 pages, 121281 bytes).
 PDF statistics:
  180 PDF objects out of 1000 (max. 8388607)
  149 compressed objects within 2 object streams
